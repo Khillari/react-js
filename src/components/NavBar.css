@@ -1,0 +1,28 @@
+.rowFlex {display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;}
+
+.rowFlex ul li a {font-size: 20px;
+    color: black;}
+
+.navFlex {display: flex;
+	flex-direction: row;
+	width: 100%;
+    justify-content: flex-end;}
+
+.navFlex ul {list-style: none;
+    font-size: 20px;}
+
+.navFlex li {list-style-type: none;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 5px;
+        font-size: 20px;}
+    
+.navFlex nav ul li a {list-style: none;
+        font-size: 20px;}
+
+ul li:hover a {color: lightskyblue;}
+     
+.navFlex li a {text-decoration: none;}
