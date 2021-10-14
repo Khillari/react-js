@@ -4,6 +4,9 @@
 	margin-top: 10px; 
 	margin-right: 10px;}
 
+.carrito {margin-right: 10px;
+    width: 28px;}
+
 .rowFlex {display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
