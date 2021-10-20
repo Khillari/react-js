@@ -1,6 +1,6 @@
 import './NavBar.css';
 import logo from './logo.png';
-import {Carrito} from '../Carrito/CartWidget';
+import {Carrito} from '../CartWidget/CartWidget';
 
 export const NavBar = () => {
     return (<nav className="rowFlex">

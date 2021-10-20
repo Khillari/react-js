@@ -1,0 +1,11 @@
+.btnMas {width: 30px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(253, 206, 212);}
+
+.btnMenos {width: 30px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(177, 225, 255);}
