@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ItemCount.css';
 
 export const Counter = (props) => {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(props.initial);
 
     function onAdd () {
         if (count < props.stock){
