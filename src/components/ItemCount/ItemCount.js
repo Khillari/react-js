@@ -20,7 +20,7 @@ export const Counter = (props) => {
 
     return (
         <div>
-            <h1>Contador: {count} </h1>
+            <h1 className="contador">Contador: {count} </h1>
             <button className="btnMenos" onClick={onDecrease}>-</button>
             <button className="btnMas" onClick={onAdd}>+</button>
         </div>

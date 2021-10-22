@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Gati", 
+        "price": 295,
+        "img": "gati.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Raza", 
+        "price": 1750,
+        "img": "raza.png"
+    },
+    {
+        "id": 3,
+        "name": "Whiskas", 
+        "price": 2820,
+        "img": "whiskas.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Excellent", 
+        "price": 670,
+        "img": "excellent.jpg"
+    }
+]
