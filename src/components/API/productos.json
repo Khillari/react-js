@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Gati", 
         "price": 295,
-        "img": "gati.jpg"
+        "img": "https://dojiw2m9tvv09.cloudfront.net/11787/product/M_purinagatiadultosaborpescado8219.jpg?183"
     },
     {
         "id": 2,
         "name": "Raza", 
         "price": 1750,
-        "img": "raza.png"
+        "img": "https://hollywoodpetshop.com.ar/wp-content/uploads/2019/01/Raza-Gatos-x-10-Pescado.png"
     },
     {
         "id": 3,
         "name": "Whiskas", 
         "price": 2820,
-        "img": "whiskas.jpg"
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/482/871/products/743670-mla25713584812_062017-o-f15af06174d469628815332209107602-480-0.jpg"
     },
     {
         "id": 4,
         "name": "Excellent", 
         "price": 670,
-        "img": "excellent.jpg"
+        "img": "https://kangoopet.com.ar/wp-content/uploads/2018/03/ex-gato-nuevo.png"
     }
 ]
