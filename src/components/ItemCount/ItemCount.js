@@ -7,6 +7,7 @@ export const Counter = (props) => {
     function onAdd () {
         if (count < props.stock){
             setCount (count + 1)
+            
         }else{
             alert(`Lo sentimos, no queda más stock del producto que deseas comprar.`)
         }
@@ -19,7 +20,7 @@ export const Counter = (props) => {
     };
 
     return (
-        <div>
+        <div className="contenedor">
             <h1 className="contador">Contador: {count} </h1>
             <button className="btnMenos" onClick={onDecrease}>-</button>
             <button className="btnMas" onClick={onAdd}>+</button>

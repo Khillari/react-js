@@ -3,24 +3,28 @@
         "id": 1,
         "name": "Gati", 
         "price": 295,
-        "img": "https://dojiw2m9tvv09.cloudfront.net/11787/product/M_purinagatiadultosaborpescado8219.jpg?183"
+        "description": "1 kilo de alimento para gatos sabor salmón con vegetales.",
+        "img": "img/gati.jpg"
     },
     {
         "id": 2,
         "name": "Raza", 
         "price": 1750,
-        "img": "https://hollywoodpetshop.com.ar/wp-content/uploads/2019/01/Raza-Gatos-x-10-Pescado.png"
+        "description": "10 kilos de alimento para gatos sabor pescado.",
+        "img": "img/raza.png"
     },
     {
         "id": 3,
         "name": "Whiskas", 
         "price": 2820,
-        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/482/871/products/743670-mla25713584812_062017-o-f15af06174d469628815332209107602-480-0.jpg"
+        "description": "10 kilos de alimento para gatos sabor carne.",
+        "img": "img/whiskas.jpg"
     },
     {
         "id": 4,
         "name": "Excellent", 
         "price": 670,
-        "img": "https://kangoopet.com.ar/wp-content/uploads/2018/03/ex-gato-nuevo.png"
+        "description": "1 kilo de alimento para gatos sabor pollo y arroz.",
+        "img": "img/excellent.jpg"
     }
 ]
