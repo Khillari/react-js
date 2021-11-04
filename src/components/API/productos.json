@@ -4,27 +4,27 @@
         "name": "Gati", 
         "price": 295,
         "description": "1 kilo de alimento para gatos sabor salmón con vegetales.",
-        "img": "img/gati.jpg"
+        "img": "assets/img/gati.jpg"
     },
     {
         "id": 2,
         "name": "Raza", 
         "price": 1750,
         "description": "10 kilos de alimento para gatos sabor pescado.",
-        "img": "img/raza.png"
+        "img": "assets/img/raza.png"
     },
     {
         "id": 3,
         "name": "Whiskas", 
         "price": 2820,
         "description": "10 kilos de alimento para gatos sabor carne.",
-        "img": "img/whiskas.jpg"
+        "img": "assets/img/whiskas.jpg"
     },
     {
         "id": 4,
         "name": "Excellent", 
         "price": 670,
         "description": "1 kilo de alimento para gatos sabor pollo y arroz.",
-        "img": "img/excellent.jpg"
+        "img": "assets/img/excellent.jpg"
     }
 ]

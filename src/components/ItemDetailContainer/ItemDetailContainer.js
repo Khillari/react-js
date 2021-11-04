@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+import { useParams } from 'react-router';
 import './ItemDetailContainer.css';
 import MasProductosApi from '../API/masprodutos.json';
 import ItemDetail from "../ItemDetail/ItemDetail";
 
 export const ItemDetailContainer = () => {
-    const [items, setItems] = useState();
+    const {id} = useParams();
+    const [items, setItems] = useState(null);
+
     const getItem = (data) =>
         new Promise((resolve, reject) => {
             setTimeout(() => {
@@ -20,11 +23,11 @@ export const ItemDetailContainer = () => {
             getItem(MasProductosApi)
             .then((result) => setItems(result))
             .catch((err) => console.log(err));
-        }, []);
+        }, [id]);
 
     return(
         <>
-                {items && items.map((item) =>         
+            {items && items.map((item) =>         
                                 <ItemDetail item={item} key={item.id}/>)}
         </>
     )

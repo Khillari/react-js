@@ -1,9 +1,10 @@
+import { useParams } from 'react-router';
+import { useEffect } from 'react/cjs/react.development';
 import { Counter } from '../ItemCount/ItemCount';
 import './ItemDetail.css';
 
 
 export const ItemDetail = ({item}) => {
-
     return (
         <>
             <div className="card">
