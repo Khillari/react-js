@@ -26,7 +26,7 @@ function App() {
               <ItemListContainer texto="La Jungla"/>
             </Route>
             <Route path="/category/:categoryId">
-              <ItemListContainer texto="Alimentos sabor carne:"/>
+              <ItemListContainer/>
             </Route >
 
             <Route path="/ropa">
