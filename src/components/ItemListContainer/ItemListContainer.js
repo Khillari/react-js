@@ -2,8 +2,7 @@ import './ItemListContainer.css';
 import ItemList from '../ItemList/ItemList';
 import ProductosApi from '../API/productos.json';
 import { useEffect, useState } from "react";
-import { Counter } from '../ItemCount/ItemCount';
-import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer';
+
 
 export const ItemListContainer = (props) => {
     
@@ -33,9 +32,6 @@ export const ItemListContainer = (props) => {
                     <div className="container">
                         {products && products.map((product) =>         
                             <ItemList product={product} key={product.id}/>)}       
-                    </div>
-                    <div className="container">
-                        <ItemDetailContainer/> 
                     </div>
                 </div>
             </div> 

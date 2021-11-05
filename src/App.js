@@ -18,10 +18,12 @@ function App() {
               Acá iría el inicio si tuviera uno u.u
             </Route>
 
-            <Route path="/alimento/:id">
+            <Route path="/alimento/:itemId">
               <ItemDetailContainer/>
             </Route>
-
+            <Route path="/alimento/*">
+              Error, no se encontró el link al que desea llegar.
+            </Route>
             <Route path="/alimento">
               <ItemListContainer texto="La Jungla"/>
             </Route >
@@ -29,7 +31,7 @@ function App() {
             <Route path="/ropa">
               Ropa
             </Route>
-            
+
             <Route path="/otros">
               Otros
             </Route>      
