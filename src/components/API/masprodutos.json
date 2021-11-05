@@ -1,0 +1,30 @@
+[
+    {
+        "id": 5,
+        "name": "Royal Canin Kitten", 
+        "price": 8125,
+        "description": "7,5 kilos de alimento para gatos sabor pollo y arroz.",
+        "img": "assets/img/royal-kitten.png"
+    },
+    {
+        "id": 6,
+        "name": "Royal Canin Fit", 
+        "price": 5200,
+        "description": "7,5 kilos de alimento para gatos sabor mix.",
+        "img": "assets/img/royal-fit.jfif"
+    },
+    {
+        "id": 7,
+        "name": "Purina Cat Chow", 
+        "price": 2921,
+        "description": "8 kilos de alimento para gatos sabor carne.",
+        "img": "assets/img/purina-cat.png"
+    },
+    {
+        "id": 8,
+        "name": "Excellent", 
+        "price": 5930,
+        "description": "7,5 kilos de alimento para gatos sabor carne.",
+        "img": "assets/img/purina-pro.png"
+    }
+]

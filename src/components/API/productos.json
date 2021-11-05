@@ -4,55 +4,63 @@
         "name": "Gati", 
         "price": 295,
         "description": "1 kilo de alimento para gatos sabor salmón con vegetales.",
-        "img": "/assets/img/gati.jpg"
+        "img": "/assets/img/gati.jpg",
+        "category": "pescado"
     },
     {
         "id": 2,
         "name": "Raza", 
         "price": 1750,
         "description": "10 kilos de alimento para gatos sabor pescado.",
-        "img": "/assets/img/raza.png"
+        "img": "/assets/img/raza.png",
+        "category": "pescado"
     },
     {
         "id": 3,
         "name": "Whiskas", 
         "price": 2820,
         "description": "10 kilos de alimento para gatos sabor carne.",
-        "img": "/assets/img/whiskas.jpg"
+        "img": "/assets/img/whiskas.jpg",
+        "category": "carne"
     },
     {
         "id": 4,
         "name": "Excellent", 
         "price": 670,
         "description": "1 kilo de alimento para gatos sabor pollo y arroz.",
-        "img": "/assets/img/excellent.jpg"
+        "img": "/assets/img/excellent.jpg",
+        "category": "pollo"
     },
     {
         "id": 5,
         "name": "Royal Canin Kitten", 
         "price": 8125,
         "description": "7,5 kilos de alimento para gatos sabor pollo y arroz.",
-        "img": "/assets/img/royal-kitten.png"
+        "img": "/assets/img/royal-kitten.png",
+        "category": "pollo"
     },
     {
         "id": 6,
         "name": "Royal Canin Fit", 
         "price": 5200,
         "description": "7,5 kilos de alimento para gatos sabor mix.",
-        "img": "/assets/img/royal-fit.jfif"
+        "img": "/assets/img/royal-fit.jfif",
+        "category": "mix"
     },
     {
         "id": 7,
         "name": "Purina Cat Chow", 
         "price": 2921,
         "description": "8 kilos de alimento para gatos sabor carne.",
-        "img": "/assets/img/purina-cat.png"
+        "img": "/assets/img/purina-cat.png",
+        "category": "carne"
     },
     {
         "id": 8,
         "name": "Excellent", 
         "price": 5930,
         "description": "7,5 kilos de alimento para gatos sabor carne.",
-        "img": "/assets/img/purina-pro.png"
+        "img": "/assets/img/purina-pro.png",
+        "category": "carne"
     }
 ]

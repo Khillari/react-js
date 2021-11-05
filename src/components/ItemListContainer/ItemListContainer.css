@@ -8,4 +8,15 @@ body {background-color: rgb(255, 223, 227);}
     justify-content: center;
     margin: auto;}
     
-        
+    .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: 0.25rem 1.5rem;
+        clear: both;
+        font-weight: 400;
+        color: #212529;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+      }

@@ -7,14 +7,30 @@ export const NavBar = () => {
     return (<nav className="rowFlex">
                 <div>
                     <Link to={'/'}><img src={logo} className="logo" alt="logo"/></Link>
+                </div>
+                <ul className="navFlex">
+                    <li><Link to={"/"}>Inicio</Link></li>
+                    <li><Link to={"/category/carne"}>Carne</Link></li>
+                    <li><Link to={"/category/pollo"}>Pollo</Link></li>
+                    <li><Link to={"/category/pescado"}>Pescado</Link></li>
+                    <li><Link to={"/category/mix"}>Mix</Link></li>
+                    <Carrito/>
+                </ul>
+            </nav>
+        )
+}
+
+/*export const NavBar = () => {
+    return (<nav className="rowFlex">
+                <div>
+                    <Link to={'/'}><img src={logo} className="logo" alt="logo"/></Link>
                 </div>          
                 <ul className="navFlex">
                     <li><Link to={'/'}>Inicio</Link></li>
                     <li><Link to={'/alimento'}>Alimento</Link></li>
                     <li><Link to={'/ropa'} >Ropa</Link></li>
                     <li><Link to={'/otros'}>Otros</Link></li>
-                    <Carrito/>
                 </ul>
             </nav>
         )
-}
+}*/

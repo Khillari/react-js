@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const Item = ({id, name, price, img, description}) => {
     return (
         <>      
-            <Link to={`/alimento/${id}`}>
+            <Link className="link" to={`/alimento/${id}`}>
                 <div className="card">
                     <img className="img-alimento" src={img}/>
                     <h3 className="name">Alimento: {name}</h3>

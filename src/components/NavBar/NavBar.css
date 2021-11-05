@@ -35,3 +35,6 @@
 ul li:hover a {color: lightskyblue;}
      
 .navFlex li a {text-decoration: none;}
+
+.intentando {display:none;
+position: absolute;}
