@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './ItemCount.css';
 
-export const Counter = (props) => {
-    const [count, setCount] = useState(parseInt(props.initial));
+export const Counter = ({stock, desmontar}) => {
+    const [count, setCount] = useState(1);
 
     function onAdd () {
-        if (count < props.stock){
+        if (count < stock){
             setCount (count + 1)
             
         }else{
@@ -21,9 +21,10 @@ export const Counter = (props) => {
 
     return (
         <div className="contenedor">
-            <h1 className="contador">Contador: {count} </h1>
+            <h1 className="contador">Cantidad: {count} </h1>
             <button className="btnMenos" onClick={onDecrease}>-</button>
             <button className="btnMas" onClick={onAdd}>+</button>
+            <button className="btn btn-dark btn-add" onClick={desmontar} >Agregar al carrito</button>
         </div>
     )
 }

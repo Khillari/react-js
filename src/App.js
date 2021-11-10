@@ -27,15 +27,11 @@ function App() {
             <Route path="/category/:categoryId">
               <ItemListContainer/>
             </Route >
-
-            <Route path="/ropa">
-              Ropa
-            </Route>
-
-            <Route path="/otros">
-              Otros
-            </Route> 
             
+            <Route path="/cart">
+              Próximamente...
+            </Route >
+
             <Route path="/*">
               Error, no se encontró el link al que desea llegar.
             </Route>     

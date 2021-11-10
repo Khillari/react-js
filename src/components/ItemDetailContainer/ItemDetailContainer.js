@@ -27,7 +27,7 @@ export const ItemDetailContainer = () => {
 
     return(
         <>
-        <div>
+        <div className="contenedorCard">
             {items &&
                         <ItemDetail id={items.id} 
                         img={items.img} 
