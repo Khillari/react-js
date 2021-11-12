@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './ItemCount.css';
+import { CartContext } from '../../contexts/CartContext';
 
 export const Counter = ({stock, desmontar}) => {
+    const cart = useContext(CartContext);
+
     const [count, setCount] = useState(1);
 
     function onAdd () {
@@ -18,6 +21,8 @@ export const Counter = ({stock, desmontar}) => {
             setCount(count - 1)
         }
     };
+
+
 
     return (
         <div className="contenedor">
