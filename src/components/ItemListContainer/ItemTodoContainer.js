@@ -4,7 +4,8 @@ import ProductosApi from '../API/productos.json';
 import { useEffect, useState } from "react";
 import { useParams } from 'react-router';
 
-        export const ItemListContainer = (props) => {
+
+        export const ItemTodoContainer = (props) => {
 
             const [products, setProductos] = useState([]);
         
@@ -23,7 +24,7 @@ import { useParams } from 'react-router';
         
                 useEffect(() => {
                     getProductos(ProductosApi)
-                    .then((result) => setProductos(result.filter((products) => products.category === categoryId)))
+                    .then((result) => setProductos(result))
                     .catch((err) => console.log(err));
                 }, [categoryId]);
 

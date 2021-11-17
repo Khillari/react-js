@@ -14,7 +14,7 @@ export const NavBar = () => {
                     <li><Link to={"/category/pollo"}>Pollo</Link></li>
                     <li><Link to={"/category/pescado"}>Pescado</Link></li>
                     <li><Link to={"/category/mix"}>Mix</Link></li>
-                    <Carrito/>
+                    <Link to="/cart"><Carrito/></Link>
                 </ul>
             </nav>
         )

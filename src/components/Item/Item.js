@@ -1,6 +1,4 @@
 import './Item.css';
-import { Counter } from '../ItemCount/ItemCount';
-import ProductosApi from '../API/productos.json';
 import { Link } from 'react-router-dom';
 
 export const Item = ({id, name, price, img, description}) => {
@@ -8,7 +6,7 @@ export const Item = ({id, name, price, img, description}) => {
         <>      
             <Link className="link" to={`/alimento/${id}`}>
                 <div className="card">
-                    <img className="img-alimento" src={img}/>
+                    <img className="img-alimento" src={img} alt="imagen"/>
                     <h3 className="name">Alimento: {name}</h3>
                     <h4 className="description">{description}</h4>
                     <h4 className="price">Precio: ${price}</h4>
