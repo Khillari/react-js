@@ -3,27 +3,23 @@ import { useParams } from 'react-router';
 import './ItemDetailContainer.css';
 import ProductosApi from '../API/productos.json';
 import ItemDetail from "../ItemDetail/ItemDetail";
+import { getFirestore } from "../../Firebase/Index";
+import { doc, getDoc, collection, query, where, getDocs} from "firebase/firestore";
 
 export const ItemDetailContainer = () => {
     const {itemId} = useParams();
     const [items, setItems] = useState();
 
-    const getItem = (data) =>
-        new Promise((resolve, reject) => {
-            setTimeout(() => {
-            if (data) {
-                resolve(data);
-            }else {
-                reject("Ha ocurrido un error");
+    useEffect(() => {
+        const db = getFirestore();
+        const item = doc(db, "items", itemId);
+        getDoc(item).then((snapshot) => {
+            if(snapshot.exists()) {
+                setItems(snapshot.data());
             }
-        }, 2000);
-    });
+        });
+    }, [itemId]);
 
-        useEffect(() => {
-            getItem(ProductosApi)
-            .then((result) => {setItems(result.find((detail) => detail.id === Number(itemId)));})
-            .catch((err) => console.log(err));
-        }, [itemId]);
 
     return(
         <>
